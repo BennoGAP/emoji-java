@@ -2,18 +2,15 @@ package com.vdurmont.emoji;
 
 import com.vdurmont.emoji.EmojiParser.AliasCandidate;
 import com.vdurmont.emoji.EmojiParser.FitzpatrickAction;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+import org.junit.jupiter.api.Test;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(JUnit4.class)
+
 public class EmojiParserTest {
   @Test
   public void parseToAliases_replaces_the_emojis_by_one_of_their_aliases() {
@@ -31,7 +28,7 @@ public class EmojiParserTest {
   }
 
   @Test
-  public void replaceAllEmojis_replace_the_emojis_by_string() throws Exception {
+  public void replaceAllEmojis_replace_the_emojis_by_string() {
     // GIVEN
     String str = "An 😀awesome 😃string with a few 😉emojis!";
 
@@ -432,7 +429,7 @@ public class EmojiParserTest {
     String input = "An\uD83D\uDE03 awesome\uD83D\uDE04 string" +
       "\uD83D\uDC4D\uD83C\uDFFF with\uD83D\uDCAA\uD83C\uDFFD a few emojis!";
 
-    List<Emoji> emojis = new ArrayList<Emoji>();
+    List<Emoji> emojis = new ArrayList<>();
     emojis.add(EmojiManager.getForAlias("smile"));
     emojis.add(EmojiManager.getForAlias("+1"));
 
@@ -451,7 +448,7 @@ public class EmojiParserTest {
     String input = "An\uD83D\uDE03 awesome\uD83D\uDE04 string" +
       "\uD83D\uDC4D\uD83C\uDFFF with\uD83D\uDCAA\uD83C\uDFFD a few emojis!";
 
-    List<Emoji> emojis = new ArrayList<Emoji>();
+    List<Emoji> emojis = new ArrayList<>();
     emojis.add(EmojiManager.getForAlias("smile"));
     emojis.add(EmojiManager.getForAlias("+1"));
 

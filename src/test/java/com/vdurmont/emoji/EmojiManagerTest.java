@@ -1,19 +1,14 @@
 package com.vdurmont.emoji;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+import org.junit.jupiter.api.Test;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(JUnit4.class)
+
 public class EmojiManagerTest {
   @Test
   public void getForTag_with_unknown_tag_returns_null() {
@@ -235,11 +230,10 @@ public class EmojiManagerTest {
     Collection<Emoji> emojis = EmojiManager.getAll();
 
     // THEN
-    Set<String> unicodes = new HashSet<String>();
+    Set<String> unicodes = new HashSet<>();
     for (Emoji emoji : emojis) {
       assertFalse(
-        "Duplicate: " + emoji.getDescription(),
-        unicodes.contains(emoji.getUnicode())
+        unicodes.contains(emoji.getUnicode()), "Duplicate: " + emoji.getDescription()
       );
       unicodes.add(emoji.getUnicode());
     }
@@ -254,8 +248,8 @@ public class EmojiManagerTest {
     Collection<Emoji> emojis = EmojiManager.getAll();
 
     // THEN
-    Set<String> aliases = new HashSet<String>();
-    Set<String> duplicates = new HashSet<String>();
+    Set<String> aliases = new HashSet<>();
+    Set<String> duplicates = new HashSet<>();
     for (Emoji emoji : emojis) {
       for (String alias : emoji.getAliases()) {
         if (aliases.contains(alias)) {
@@ -264,7 +258,7 @@ public class EmojiManagerTest {
         aliases.add(alias);
       }
     }
-    assertEquals("Duplicates: " + duplicates, duplicates.size(), 0);
+    assertEquals(duplicates.size(), 0, "Duplicates: " + duplicates);
   }
 
   @Test

@@ -58,10 +58,6 @@ public class EmojiTrie {
               "start " + start + ", end " + end + ", length " + sequence.length);
     }
 
-    if (sequence == null) {
-      return Matches.POSSIBLY;
-    }
-
     Node tree = root;
     for (int i = start; i < end; i++) {
       if (!tree.hasChild(sequence[i])) {
@@ -111,8 +107,8 @@ public class EmojiTrie {
     }
   }
 
-  private class Node {
-    private Map<Character, Node> children = new HashMap<Character, Node>();
+  private static class Node {
+    private final Map<Character, Node> children = new HashMap<>();
     private Emoji emoji;
 
     private void setEmoji(Emoji emoji) {

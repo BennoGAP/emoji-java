@@ -2,19 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vdurmont</groupId>
+    <groupId>com.exlley</groupId>
     <artifactId>emoji-java</artifactId>
-    <version>5.1.1</version>
+    <version>5.1.2</version>
     <packaging>jar</packaging>
 
     <name>emoji-java</name>
-    <url>https://github.com/vdurmont/emoji-java</url>
-    <description>The missing emoji library for Java.</description>
+    <url>https://github.com/liresky/emoji-java</url>
+    <description>The missing emoji library for Java. from https://github.com/vdurmont/emoji-java</description>
 
     <scm>
-        <connection>scm:git:git@github.com:vdurmont/emoji-java.git</connection>
-        <developerConnection>scm:git:git@github.com:vdurmont/emoji-java.git</developerConnection>
-        <url>git@github.com:vdurmont/emoji-java.git</url>
+        <connection>scm:git:git@github.com:liresky/emoji-java.git</connection>
+        <developerConnection>scm:git:git@github.com:liresky/emoji-java.git</developerConnection>
+        <url>git@github.com:liresky/emoji-java.git</url>
     </scm>
 
     <developers>
@@ -22,6 +22,11 @@
             <name>Vincent DURMONT</name>
             <email>vdurmont@gmail.com</email>
             <url>http://www.vincent-durmont.com</url>
+        </developer>
+        <developer>
+            <name>Jackie Lee</name>
+            <email>ldfreseky@outlook.com</email>
+            <url>https://github.com/liresky/emoji-java</url>
         </developer>
     </developers>
 
@@ -35,19 +40,28 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <fastjson.version>2.0.14</fastjson.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20170516</version>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.7.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -68,10 +82,22 @@
                 <plugin>
                     <groupId>org.eluder.coveralls</groupId>
                     <artifactId>coveralls-maven-plugin</artifactId>
-                    <version>2.2.0</version>
+                    <version>4.3.0</version>
                 </plugin>
             </plugins>
         </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
     <profiles>
@@ -82,7 +108,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
-                        <version>2.3</version>
+                        <version>3.2.1</version>
                         <executions>
                             <execution>
                                 <id>attach-sources</id>
@@ -95,7 +121,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>2.9.1</version>
+                        <version>3.4.1</version>
                         <configuration>
                             <charset>UTF-8</charset>
                             <docencoding>UTF-8</docencoding>
@@ -113,7 +139,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
+                        <version>3.0.1</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -127,7 +153,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.7</version>
+                        <version>1.6.13</version>
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>ossrh</serverId>
@@ -141,11 +167,6 @@
     </profiles>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
         <repository>
             <id>ossrh</id>
             <name>Nexus Release Repository</name>

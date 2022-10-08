@@ -1,18 +1,16 @@
 package com.vdurmont.emoji;
 
-import org.junit.Ignore;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
+import org.junit.jupiter.api.Test;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.*;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 /**
  * Test that checks emoji json.
@@ -27,9 +25,10 @@ import static org.junit.Assert.assertTrue;
  *     The test data is taken from: <a href="http://unicode.org/Public/emoji/4.0/emoji-test.txt">Unicode test data</a>
  *     related to unicode 9.0
  */
-@RunWith(Parameterized.class)
+
+
 public class EmojiJsonTest {
-    @Parameterized.Parameters
+
     public static Collection<String> emojis() throws IOException {
         final InputStream is = EmojiJsonTest.class.getClassLoader().getResourceAsStream("emoji-test.txt");
         return EmojiTestDataReader.getEmojiList(is);
@@ -43,13 +42,12 @@ public class EmojiJsonTest {
             EmojiTestDataReader.convertFromCodepoint("1F3FF")
     };
 
-    @Parameterized.Parameter
+
     public String emoji;
 
-    @Ignore("1665 emoji still has not been added")
     @Test
     public void checkEmojiExisting() {
-        assertTrue("Asserting for emoji: " + emoji, EmojiManager.isEmoji(emoji));
+        assertTrue(EmojiManager.isEmoji(emoji), "Asserting for emoji: " + emoji);
     }
 
     @Test
@@ -66,14 +64,11 @@ public class EmojiJsonTest {
         }
 
         if (shouldContainFitzpatric) {
-            EmojiParser.parseFromUnicode(emoji, new EmojiParser.EmojiTransformer() {
-                public String transform(EmojiParser.UnicodeCandidate unicodeCandidate) {
-                    if (unicodeCandidate.hasFitzpatrick()) {
-                        assertTrue("Asserting emoji contains fitzpatric: " + emoji + " " + unicodeCandidate.getEmoji(),
-                                unicodeCandidate.getEmoji().supportsFitzpatrick());
-                    }
-                    return "";
+            EmojiParser.parseFromUnicode(emoji, unicodeCandidate -> {
+                if (unicodeCandidate.hasFitzpatrick()) {
+                    assertTrue(unicodeCandidate.getEmoji().supportsFitzpatrick(), "Asserting emoji contains fitzpatric: " + emoji + " " + unicodeCandidate.getEmoji());
                 }
+                return "";
             });
         }
     }
@@ -81,7 +76,7 @@ public class EmojiJsonTest {
     private static class EmojiTestDataReader {
         static List<String> getEmojiList(final InputStream emojiFileStream) throws IOException {
             final BufferedReader reader = new BufferedReader(new InputStreamReader(emojiFileStream));
-            final List<String> result = new LinkedList<String>();
+            final List<String> result = new LinkedList<>();
 
             String line = reader.readLine();
             String [] lineSplit;
