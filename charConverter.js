@@ -37,14 +37,14 @@ function convertCharStr2jEsc(str, parameters) {
   // Converts a string of characters to JavaScript escapes
   // str: sequence of Unicode characters
   // parameters: a semicolon separated string showing ids for checkboxes that are turned on
-  var highsurrogate = 0;
-  var suppCP;
-  var pad;
-  var n = 0;
-  var pars = parameters.split(';');
-  var outputString = '';
-  for (var i = 0; i < str.length; i++) {
-    var cc = str.charCodeAt(i);
+  let highsurrogate = 0;
+  let suppCP;
+  let pad;
+  const n = 0;
+  const pars = parameters.split(';');
+  let outputString = '';
+  for (let i = 0; i < str.length; i++) {
+    const cc = str.charCodeAt(i);
     if (cc < 0 || cc > 0xffff) {
       outputString +=
         '!Error in convertCharStr2UTF16: unexpected charCodeAt result, cc=' +
@@ -156,23 +156,23 @@ function convertCharStr2jEsc(str, parameters) {
 }
 
 function dec2hex4(textString) {
-  var hexequiv = new Array(
-    '0',
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    'A',
-    'B',
-    'C',
-    'D',
-    'E',
-    'F'
+  const hexequiv = new Array(
+      '0',
+      '1',
+      '2',
+      '3',
+      '4',
+      '5',
+      '6',
+      '7',
+      '8',
+      '9',
+      'A',
+      'B',
+      'C',
+      'D',
+      'E',
+      'F'
   );
   return (
     hexequiv[(textString >> 12) & 0xf] +
