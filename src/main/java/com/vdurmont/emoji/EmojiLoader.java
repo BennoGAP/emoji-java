@@ -1,6 +1,7 @@
 package com.vdurmont.emoji;
 
 
+import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
 
@@ -35,7 +36,7 @@ public class EmojiLoader {
    * the JSONArray
    */
   public static List<Emoji> loadEmojis(InputStream stream) throws IOException {
-    JSONArray emojisJSON = new JSONArray(inputStreamToString(stream));
+    JSONArray emojisJSON = JSON.parseArray(inputStreamToString(stream));
     List<Emoji> emojis = new ArrayList<>(emojisJSON.size());
     for (int i = 0; i < emojisJSON.size(); i++) {
       Emoji emoji = buildEmojiFromJSON(emojisJSON.getJSONObject(i));
