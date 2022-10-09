@@ -14,6 +14,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.vdurmont.emoji.EmojiJSONField.*;
+
 /**
  * Loads the emojis from a JSON database.
  *
@@ -61,24 +63,22 @@ public class EmojiLoader {
     return sb.toString();
   }
 
-  protected static Emoji buildEmojiFromJSON(
-    JSONObject json
-  ) throws UnsupportedEncodingException {
-    if (!json.containsKey("emoji")) {
+  protected static Emoji buildEmojiFromJSON(JSONObject json) {
+    if (!json.containsKey(FIELD_EMOJI)) {
       return null;
     }
 
-    byte[] bytes = json.getString("emoji").getBytes(StandardCharsets.UTF_8);
+    byte[] bytes = json.getString(FIELD_EMOJI).getBytes(StandardCharsets.UTF_8);
     String description = null;
-    if (json.containsKey("description")) {
-      description = json.getString("description");
+    if (json.containsKey(FIELD_DESCRIPTION)) {
+      description = json.getString(FIELD_DESCRIPTION);
     }
     boolean supportsFitzpatrick = false;
-    if (json.containsKey("supports_fitzpatrick")) {
-      supportsFitzpatrick = json.getBoolean("supports_fitzpatrick");
+    if (json.containsKey(FIELD_SUPPORTS_FITZPATRICK)) {
+      supportsFitzpatrick = json.getBoolean(FIELD_SUPPORTS_FITZPATRICK);
     }
-    List<String> aliases = jsonArrayToStringList(json.getJSONArray("aliases"));
-    List<String> tags = jsonArrayToStringList(json.getJSONArray("tags"));
+    List<String> aliases = jsonArrayToStringList(json.getJSONArray(FIELD_ALIASES));
+    List<String> tags = jsonArrayToStringList(json.getJSONArray(FIELD_TAGS));
     return new Emoji(description, supportsFitzpatrick, aliases, tags, bytes);
   }
 

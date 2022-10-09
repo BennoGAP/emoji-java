@@ -130,27 +130,42 @@ public class EmojiParser {
 
   /** Finds the alias in the given string starting at the given point, null otherwise */
   protected static AliasCandidate getAliasAt(String input, int start) {
-    if (input.length() < start + 2 || input.charAt(start) != ':') return null; // Aliases start with :
-    int aliasEnd = input.indexOf(':', start + 2);  // Alias must be at least 1 char in length
-    if (aliasEnd == -1) return null; // No alias end found
+    // Aliases start with :
+    if (input.length() < start + 2 || input.charAt(start) != ':') {
+      return null;
+    }
+    // Alias must be at least 1 char in length
+    int aliasEnd = input.indexOf(':', start + 2);
+    // No alias end found
+    if (aliasEnd == -1) {
+      return null;
+    }
 
     int fitzpatrickStart = input.indexOf('|', start + 2);
     if (fitzpatrickStart != -1 && fitzpatrickStart < aliasEnd) {
       Emoji emoji = EmojiManager.getForAlias(input.substring(start, fitzpatrickStart));
-      if (emoji == null) return null; // Not a valid alias
-      if (!emoji.supportsFitzpatrick()) return null; // Fitzpatrick was specified, but the emoji does not support it
+      // Not a valid alias
+      // Fitzpatrick was specified, but the emoji does not support it
+      if (emoji == null || !emoji.supportsFitzpatrick()) {
+        return null;
+      }
+
       Fitzpatrick fitzpatrick = Fitzpatrick.fitzpatrickFromType(input.substring(fitzpatrickStart + 1, aliasEnd));
       return new AliasCandidate(emoji, fitzpatrick, start, aliasEnd);
     }
 
     Emoji emoji = EmojiManager.getForAlias(input.substring(start, aliasEnd));
-    if (emoji == null) return null; // Not a valid alias
+    if (emoji == null) {
+      return null; // Not a valid alias
+    }
     return new AliasCandidate(emoji, null, start, aliasEnd);
   }
 
   /** Finds the HTML encoded emoji in the given string starting at the given point, null otherwise */
   protected static AliasCandidate getHtmlEncodedEmojiAt(String input, int start) {
-    if (input.length() < start + 4 || input.charAt(start) != '&' || input.charAt(start + 1) != '#') return null;
+    if (input.length() < start + 4 || input.charAt(start) != '&' || input.charAt(start + 1) != '#') {
+      return null;
+    }
 
     Emoji longestEmoji = null;
     int longestCodePointEnd = -1;
@@ -158,8 +173,11 @@ public class EmojiParser {
     int charsIndex = 0;
     int codePointStart = start;
     do {
-      int codePointEnd = input.indexOf(';', codePointStart + 3);  // Code point must be at least 1 char in length
-      if (codePointEnd == -1) break;
+      // Code point must be at least 1 char in length
+      int codePointEnd = input.indexOf(';', codePointStart + 3);
+      if (codePointEnd == -1) {
+        break;
+      }
 
       try {
         int radix = input.charAt(codePointStart + 2) == 'x' ? 16 : 10;
@@ -180,7 +198,9 @@ public class EmojiParser {
             charsIndex < chars.length &&
             !EmojiManager.EMOJI_TRIE.isEmoji(chars, 0, charsIndex).impossibleMatch());
 
-    if (longestEmoji == null) return null;
+    if (longestEmoji == null) {
+      return null;
+    }
     return new AliasCandidate(longestEmoji, null, start, longestCodePointEnd);
   }
 

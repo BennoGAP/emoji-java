@@ -150,15 +150,6 @@ public class Emoji {
     return this.htmlDec;
   }
 
-  /**
-   * @deprecated identical to {@link #getHtmlHexadecimal()} for
-   * backwards-compatibility. Use that instead.
-   *
-   * @return the HTML hexadecimal representation
-   */
-  public String getHtmlHexidecimal() {
-    return this.getHtmlHexadecimal();
-  }
 
   /**
    * Returns the HTML hexadecimal representation of the emoji
