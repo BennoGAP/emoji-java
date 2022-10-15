@@ -1,8 +1,6 @@
 # emoji-java
 
-[![Build Status](https://travis-ci.org/vdurmont/emoji-java.svg?branch=master)](https://travis-ci.org/vdurmont/emoji-java)
-[![Coverage Status](https://img.shields.io/coveralls/vdurmont/emoji-java.svg)](https://coveralls.io/r/vdurmont/emoji-java?branch=master)
-[![License Info](http://img.shields.io/badge/license-The%20MIT%20License-brightgreen.svg)](https://github.com/vdurmont/emoji-java/blob/master/LICENSE.md)
+[![License Info](http://img.shields.io/badge/license-The%20MIT%20License-brightgreen.svg)](https://github.com/liresky/emoji-java/blob/master/LICENSE.md)
 
 _The missing emoji library for java._
 
@@ -33,9 +31,9 @@ compile 'com.exlley:emoji-java:5.1.2'
 
 ##### Via Direct Download:
 
-- Use [releases](https://github.com/vdurmont/emoji-java/releases) tab to download the jar directly.
-- Download JSON-java dependency from http://mvnrepository.com/artifact/org.json/json.
-
+- Use [releases](https://github.com/liresky/emoji-java/releases) tab to download the jar directly.
+~~- Download JSON-java dependency from http://mvnrepository.com/artifact/org.json/json.~~
+-- Use fastjson2 from https://github.com/alibaba/fastjson2
 ## How to use it?
 
 ### EmojiManager
