@@ -30,7 +30,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON() throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
             + "\"emoji\": \"😄\","
@@ -58,8 +58,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_without_description_sets_a_null_description()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_without_description_sets_a_null_description() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"emoji\": \"😄\","
@@ -76,8 +75,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_without_unicode_returns_null()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_without_unicode_returns_null() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"aliases\": [\"smile\"],"
@@ -92,8 +90,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_computes_the_html_codes()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_computes_the_html_codes() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"emoji\": \"😄\","
@@ -113,8 +110,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_with_support_for_fitzpatrick_true()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_with_support_for_fitzpatrick_true() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"emoji\": \"\uD83D\uDC66\","
@@ -133,8 +129,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_with_support_for_fitzpatrick_false()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_with_support_for_fitzpatrick_false() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"emoji\": \"\uD83D\uDE15\","
@@ -153,8 +148,7 @@ public class EmojiLoaderTest {
   }
 
   @Test
-  public void buildEmojiFromJSON_without_support_for_fitzpatrick()
-    throws UnsupportedEncodingException {
+  public void buildEmojiFromJSON_without_support_for_fitzpatrick() {
     // GIVEN
     JSONObject json = JSON.parseObject("{"
       + "\"emoji\": \"\uD83D\uDE15\","

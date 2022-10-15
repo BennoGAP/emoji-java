@@ -15,9 +15,7 @@ public class EmojiTrie {
       char[] chars = emoji.getUnicode().toCharArray();
       maxDepth = Math.max(maxDepth, chars.length);
       for (char c: chars) {
-        if (!tree.hasChild(c)) {
-          tree.addChild(c);
-        }
+        tree.addChild(c);
         tree = tree.getChild(c);
       }
       tree.setEmoji(emoji);
@@ -124,7 +122,9 @@ public class EmojiTrie {
     }
 
     private void addChild(char child) {
-      children.put(child, new Node());
+      if(!children.containsKey(child)) {
+        children.put(child, new Node());
+      }
     }
 
     private Node getChild(char child) {

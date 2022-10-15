@@ -1,15 +1,21 @@
 package com.vdurmont.emoji;
 
-
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 /**
@@ -25,7 +31,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *     The test data is taken from: <a href="http://unicode.org/Public/emoji/4.0/emoji-test.txt">Unicode test data</a>
  *     related to unicode 9.0
  */
-
 
 public class EmojiJsonTest {
 
@@ -43,15 +48,26 @@ public class EmojiJsonTest {
     };
 
 
-    public String emoji;
+    // public String emoji;
 
-    @Test
-    public void checkEmojiExisting() {
-        assertTrue(EmojiManager.isEmoji(emoji), "Asserting for emoji: " + emoji);
+    @ParameterizedTest
+    @MethodSource("emojis")
+    @DisplayName("checkEmojiExisting")
+    public void checkEmojiExisting(String emoji) {
+        var str = string2Unicode(emoji);
+        System.out.println("[" + str + "]");
+
+        assertTrue(EmojiManager.isEmoji(emoji), String.format("Asserting for emoji: %s", emoji));
     }
 
     @Test
-    public void checkEmojiFitzpatricFlag() {
+    public void checkEmojiExisting() {
+        System.out.println("\\u263a\\ufe0f");
+    }
+
+    @ParameterizedTest
+    @MethodSource("emojis")
+    public void checkEmojiFitzpatricFlag(String emoji) {
         final int len = emoji.toCharArray().length;
         boolean shouldContainFitzpatric = false;
         int codepoint;
@@ -107,12 +123,41 @@ public class EmojiJsonTest {
 
     }
 
-    @Test
-    public void checkInverseParse() {
+    @ParameterizedTest
+    @MethodSource("emojis")
+    public void checkInverseParse(String emoji) {
         assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToHtmlDecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
 
         assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToHtmlHexadecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
 
         assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToAliases(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
     }
+
+    /**
+     * 字符串转换unicode
+     */
+    public static String string2Unicode(String string) {
+        StringBuilder unicode = new StringBuilder();
+        for (int i = 0; i < string.length(); i++) {
+            // 取出每一个字符
+            char c = string.charAt(i);
+            if (c<0x20 || c>0x7E) {
+                // 转换为unicode
+                String tmp = Integer.toHexString(c);
+                if (tmp.length() >= 4) {
+                    unicode.append("\\u").append(Integer.toHexString(c));
+                } else if (tmp.length() == 3){
+                    unicode.append("\\u0").append(Integer.toHexString(c));
+                } else if (tmp.length() == 2){
+                    unicode.append("\\u00").append(Integer.toHexString(c));
+                } else {
+                    unicode.append("\\u000").append(Integer.toHexString(c));
+                }
+            } else {
+                unicode.append(c);
+            }
+        }
+        return unicode.toString();
+    }
+
 }

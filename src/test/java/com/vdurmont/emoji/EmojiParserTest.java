@@ -4,7 +4,6 @@ import com.vdurmont.emoji.EmojiParser.AliasCandidate;
 import com.vdurmont.emoji.EmojiParser.FitzpatrickAction;
 import org.junit.jupiter.api.Test;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -341,6 +340,7 @@ public class EmojiParserTest {
     AliasCandidate candidate = EmojiParser.getAliasAt(str, 5);
 
     // THEN
+    assert candidate != null;
     assertTrue(candidate.emoji.getAliases().contains("boy"));
     assertNull(candidate.fitzpatrick);
   }
@@ -354,6 +354,7 @@ public class EmojiParserTest {
     AliasCandidate candidate = EmojiParser.getAliasAt(str, 5);
 
     // THEN
+    assert candidate != null;
     assertTrue(candidate.emoji.getAliases().contains("boy"));
     assertNull(candidate.fitzpatrick);
   }
@@ -367,6 +368,7 @@ public class EmojiParserTest {
     AliasCandidate candidate = EmojiParser.getAliasAt(str, 5);
 
     // THEN
+    assert candidate != null;
     assertTrue(candidate.emoji.getAliases().contains("boy"));
     assertNull(candidate.fitzpatrick);
   }
@@ -383,6 +385,7 @@ public class EmojiParserTest {
     candidate = EmojiParser.getAliasAt(str, 6);
 
     // THEN
+    assert candidate != null;
     assertTrue(candidate.emoji.getAliases().contains("boy"));
     assertNull(candidate.fitzpatrick);
   }
@@ -396,6 +399,7 @@ public class EmojiParserTest {
     AliasCandidate candidate = EmojiParser.getAliasAt(str, 5);
 
     // THEN
+    assert candidate != null;
     assertTrue(candidate.emoji.getAliases().contains("boy"));
     assertEquals(Fitzpatrick.TYPE_3, candidate.fitzpatrick);
   }
