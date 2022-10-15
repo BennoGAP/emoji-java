@@ -51,7 +51,7 @@ function convertCharStr2jEsc(str, parameters) {
         cc +
         '!';
     }
-    if (highsurrogate != 0) {
+    if (highsurrogate !== 0) {
       // this is a supp char, and cc contains the low surrogate
       if (0xdc00 <= cc && cc <= 0xdfff) {
         suppCP = 0x10000 + ((highsurrogate - 0xd800) << 10) + (cc - 0xdc00);
