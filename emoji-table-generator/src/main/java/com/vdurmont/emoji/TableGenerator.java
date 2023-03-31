@@ -7,7 +7,7 @@ import java.io.IOException;
  * This app generate the emoji table in the README ;)
  * <p/>
  * Run with:
- * mvn exec:java -Dexec.mainClass="com.vdurmont.emoji.TableGenerator"
+ * mvn exec:java -Dexec.mainClass="com.vdurmont.emoji.TableGenerator" -Dexec.args="/path/to/output/EMOJIS.md"
  */
 public class TableGenerator {
   public static void main(String[] args) throws IOException {
