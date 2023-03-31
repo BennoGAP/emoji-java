@@ -7,33 +7,12 @@ _The missing emoji library for java._
 **emoji-java** is a lightweight java library that helps you use Emojis in your java applications.
 
 > This version has updated all dependencies.
-> now using fastjson2, junit5 and jdk11.
+> now using junit5 and jdk11.
 
 ## How to get it?
 
-##### Via Maven:
+You can download the project, build it with `mvn clean install` and add the generated jar to your buildpath.
 
-```xml
-<dependency>
-  <groupId>com.exlley</groupId>
-  <artifactId>emoji-java</artifactId>
-  <version>5.1.2</version>
-</dependency>
-```
-
-You can also download the project, build it with `mvn clean install` and add the generated jar to your buildpath.
-
-##### Via Gradle:
-
-```gradle
-compile 'com.exlley:emoji-java:5.1.2'
-```
-
-##### Via Direct Download:
-
-- Use [releases](https://github.com/liresky/emoji-java/releases) tab to download the jar directly.
-~~- Download JSON-java dependency from http://mvnrepository.com/artifact/org.json/json.~~
--- Use fastjson2 from https://github.com/alibaba/fastjson2
 ## How to use it?
 
 ### EmojiManager

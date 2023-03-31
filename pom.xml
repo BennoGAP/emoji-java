@@ -2,19 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.exlley</groupId>
+    <groupId>org.groebl</groupId>
     <artifactId>emoji-java</artifactId>
-    <version>5.1.2</version>
+    <version>5.1.3</version>
     <packaging>jar</packaging>
 
     <name>emoji-java</name>
-    <url>https://github.com/liresky/emoji-java</url>
-    <description>The missing emoji library for Java. from https://github.com/vdurmont/emoji-java</description>
+    <url>https://github.com/BennoGAP/emoji-java</url>
+    <description>The missing emoji library for Java. Forked from https://github.com/vdurmont/emoji-java, modified from https://github.com/liresky/emoji-java</description>
 
     <scm>
-        <connection>scm:git:git@github.com:liresky/emoji-java.git</connection>
-        <developerConnection>scm:git:git@github.com:liresky/emoji-java.git</developerConnection>
-        <url>git@github.com:liresky/emoji-java.git</url>
+        <connection>scm:git:git@github.com:BennoGAP/emoji-java.git</connection>
+        <developerConnection>scm:git:git@github.com:BennoGAP/emoji-java.git</developerConnection>
+        <url>git@github.com:BennoGAP/emoji-java.git</url>
     </scm>
 
     <developers>
@@ -27,6 +27,11 @@
             <name>Jackie Lee</name>
             <email>ldfreseky@outlook.com</email>
             <url>https://github.com/liresky/emoji-java</url>
+        </developer>
+        <developer>
+            <name>Benno Groebl</name>
+            <email></email>
+            <url>https://github.com/BennoGAP/emoji-java</url>
         </developer>
     </developers>
 
