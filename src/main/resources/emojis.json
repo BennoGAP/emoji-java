@@ -1773,7 +1773,8 @@
         ],
         "tags": [
             "goodbye"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤚",
@@ -1782,7 +1783,8 @@
         "aliases": [
             "raised_back_of_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🖐️",
@@ -1791,7 +1793,8 @@
         "aliases": [
             "raised_hand_with_fingers_splayed"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "✋",
@@ -1804,7 +1807,8 @@
         "tags": [
             "highfive",
             "stop"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🖖",
@@ -1816,7 +1820,8 @@
         "tags": [
             "prosper",
             "spock"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫱",
@@ -1825,7 +1830,8 @@
         "aliases": [
             "rightwards_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫲",
@@ -1834,7 +1840,8 @@
         "aliases": [
             "leftwards_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫳",
@@ -1843,7 +1850,8 @@
         "aliases": [
             "palm_down_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫴",
@@ -1852,7 +1860,8 @@
         "aliases": [
             "palm_up_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫷",
@@ -1861,7 +1870,8 @@
         "aliases": [
             "leftwards_pushing_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫸",
@@ -1870,7 +1880,8 @@
         "aliases": [
             "rightwards_pushing_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👌",
@@ -1879,7 +1890,8 @@
         "aliases": [
             "ok_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤌",
@@ -1888,7 +1900,8 @@
         "aliases": [
             "pinched_fingers"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤏",
@@ -1897,7 +1910,8 @@
         "aliases": [
             "pinching_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "✌️",
@@ -1909,7 +1923,8 @@
         "tags": [
             "victory",
             "peace"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤞",
@@ -1921,7 +1936,8 @@
         "tags": [
             "luck",
             "hopeful"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫰",
@@ -1930,7 +1946,8 @@
         "aliases": [
             "hand_with_index_finger_and_thumb_crossed"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤟",
@@ -1939,7 +1956,8 @@
         "aliases": [
             "love_you_gesture"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤘",
@@ -1948,7 +1966,8 @@
         "aliases": [
             "metal"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤙",
@@ -1957,7 +1976,8 @@
         "aliases": [
             "call_me_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👈",
@@ -1966,7 +1986,8 @@
         "aliases": [
             "point_left"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👉",
@@ -1975,7 +1996,8 @@
         "aliases": [
             "point_right"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👆",
@@ -1984,7 +2006,8 @@
         "aliases": [
             "point_up_2"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🖕",
@@ -1994,7 +2017,8 @@
             "middle_finger",
             "fu"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👇",
@@ -2003,7 +2027,8 @@
         "aliases": [
             "point_down"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "☝️",
@@ -2012,7 +2037,8 @@
         "aliases": [
             "point_up"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫵",
@@ -2021,7 +2047,8 @@
         "aliases": [
             "index_pointing_at_the_viewer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👍",
@@ -2034,7 +2061,8 @@
         "tags": [
             "approve",
             "ok"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👎",
@@ -2047,7 +2075,8 @@
         "tags": [
             "disapprove",
             "bury"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "✊",
@@ -2059,7 +2088,8 @@
         ],
         "tags": [
             "power"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👊",
@@ -2072,7 +2102,8 @@
         ],
         "tags": [
             "attack"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤛",
@@ -2081,7 +2112,8 @@
         "aliases": [
             "fist_left"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤜",
@@ -2090,7 +2122,8 @@
         "aliases": [
             "fist_right"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👏",
@@ -2102,7 +2135,8 @@
         "tags": [
             "praise",
             "applause"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙌",
@@ -2113,7 +2147,8 @@
         ],
         "tags": [
             "hooray"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫶",
@@ -2124,7 +2159,8 @@
         ],
         "tags": [
             "love"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👐",
@@ -2133,7 +2169,8 @@
         "aliases": [
             "open_hands"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤲",
@@ -2142,7 +2179,8 @@
         "aliases": [
             "palms_up_together"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤝",
@@ -2153,7 +2191,8 @@
         ],
         "tags": [
             "deal"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙏",
@@ -2166,7 +2205,8 @@
             "please",
             "hope",
             "wish"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "✍️",
@@ -2175,7 +2215,8 @@
         "aliases": [
             "writing_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💅",
@@ -2187,7 +2228,8 @@
         "tags": [
             "beauty",
             "manicure"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤳",
@@ -2196,7 +2238,8 @@
         "aliases": [
             "selfie"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💪",
@@ -2210,7 +2253,8 @@
             "bicep",
             "strong",
             "workout"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦾",
@@ -2237,7 +2281,8 @@
         "aliases": [
             "leg"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦶",
@@ -2246,7 +2291,8 @@
         "aliases": [
             "foot"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👂",
@@ -2259,7 +2305,8 @@
             "hear",
             "sound",
             "listen"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦻",
@@ -2268,7 +2315,8 @@
         "aliases": [
             "ear_with_hearing_aid"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👃",
@@ -2279,7 +2327,8 @@
         ],
         "tags": [
             "smell"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧠",
@@ -2389,7 +2438,8 @@
         "tags": [
             "child",
             "newborn"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧒",
@@ -2398,7 +2448,8 @@
         "aliases": [
             "child"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👦",
@@ -2409,7 +2460,8 @@
         ],
         "tags": [
             "child"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👧",
@@ -2420,7 +2472,8 @@
         ],
         "tags": [
             "child"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑",
@@ -2429,7 +2482,8 @@
         "aliases": [
             "adult"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👱",
@@ -2438,7 +2492,8 @@
         "aliases": [
             "blond_haired_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨",
@@ -2451,7 +2506,8 @@
             "mustache",
             "father",
             "dad"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧔",
@@ -2460,7 +2516,8 @@
         "aliases": [
             "bearded_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧔‍♂️",
@@ -2469,7 +2526,8 @@
         "aliases": [
             "man_beard"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧔‍♀️",
@@ -2478,7 +2536,8 @@
         "aliases": [
             "woman_beard"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦰",
@@ -2487,7 +2546,8 @@
         "aliases": [
             "red_haired_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦱",
@@ -2496,7 +2556,8 @@
         "aliases": [
             "curly_haired_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦳",
@@ -2505,7 +2566,8 @@
         "aliases": [
             "white_haired_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦲",
@@ -2514,7 +2576,8 @@
         "aliases": [
             "bald_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩",
@@ -2525,7 +2588,8 @@
         ],
         "tags": [
             "girls"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦰",
@@ -2534,7 +2598,8 @@
         "aliases": [
             "red_haired_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦰",
@@ -2543,7 +2608,8 @@
         "aliases": [
             "person_red_hair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦱",
@@ -2552,7 +2618,8 @@
         "aliases": [
             "curly_haired_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦱",
@@ -2561,7 +2628,8 @@
         "aliases": [
             "person_curly_hair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦳",
@@ -2570,7 +2638,8 @@
         "aliases": [
             "white_haired_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦳",
@@ -2579,7 +2648,8 @@
         "aliases": [
             "person_white_hair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦲",
@@ -2588,7 +2658,8 @@
         "aliases": [
             "bald_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦲",
@@ -2597,7 +2668,8 @@
         "aliases": [
             "person_bald"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👱‍♀️",
@@ -2607,7 +2679,8 @@
             "blond_haired_woman",
             "blonde_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👱‍♂️",
@@ -2616,7 +2689,8 @@
         "aliases": [
             "blond_haired_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧓",
@@ -2625,7 +2699,8 @@
         "aliases": [
             "older_adult"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👴",
@@ -2634,7 +2709,8 @@
         "aliases": [
             "older_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👵",
@@ -2643,7 +2719,8 @@
         "aliases": [
             "older_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙍",
@@ -2652,7 +2729,8 @@
         "aliases": [
             "frowning_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙍‍♂️",
@@ -2661,7 +2739,8 @@
         "aliases": [
             "frowning_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙍‍♀️",
@@ -2670,7 +2749,8 @@
         "aliases": [
             "frowning_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙎",
@@ -2679,7 +2759,8 @@
         "aliases": [
             "pouting_face"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙎‍♂️",
@@ -2688,7 +2769,8 @@
         "aliases": [
             "pouting_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙎‍♀️",
@@ -2697,7 +2779,8 @@
         "aliases": [
             "pouting_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙅",
@@ -2710,7 +2793,8 @@
             "stop",
             "halt",
             "denied"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙅‍♂️",
@@ -2724,7 +2808,8 @@
             "stop",
             "halt",
             "denied"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙅‍♀️",
@@ -2738,7 +2823,8 @@
             "stop",
             "halt",
             "denied"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙆",
@@ -2747,7 +2833,8 @@
         "aliases": [
             "ok_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙆‍♂️",
@@ -2756,7 +2843,8 @@
         "aliases": [
             "ok_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙆‍♀️",
@@ -2765,7 +2853,8 @@
         "aliases": [
             "ok_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💁",
@@ -2775,7 +2864,8 @@
             "tipping_hand_person",
             "information_desk_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💁‍♂️",
@@ -2787,7 +2877,8 @@
         ],
         "tags": [
             "information"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💁‍♀️",
@@ -2799,7 +2890,8 @@
         ],
         "tags": [
             "information"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙋",
@@ -2808,7 +2900,8 @@
         "aliases": [
             "raising_hand"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙋‍♂️",
@@ -2817,7 +2910,8 @@
         "aliases": [
             "raising_hand_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙋‍♀️",
@@ -2826,7 +2920,8 @@
         "aliases": [
             "raising_hand_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧏",
@@ -2835,7 +2930,8 @@
         "aliases": [
             "deaf_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧏‍♂️",
@@ -2844,7 +2940,8 @@
         "aliases": [
             "deaf_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧏‍♀️",
@@ -2853,7 +2950,8 @@
         "aliases": [
             "deaf_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙇",
@@ -2865,7 +2963,8 @@
         "tags": [
             "respect",
             "thanks"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙇‍♂️",
@@ -2877,7 +2976,8 @@
         "tags": [
             "respect",
             "thanks"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🙇‍♀️",
@@ -2889,7 +2989,8 @@
         "tags": [
             "respect",
             "thanks"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤦",
@@ -2898,7 +2999,8 @@
         "aliases": [
             "facepalm"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤦‍♂️",
@@ -2907,7 +3009,8 @@
         "aliases": [
             "man_facepalming"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤦‍♀️",
@@ -2916,7 +3019,8 @@
         "aliases": [
             "woman_facepalming"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤷",
@@ -2925,7 +3029,8 @@
         "aliases": [
             "shrug"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤷‍♂️",
@@ -2934,7 +3039,8 @@
         "aliases": [
             "man_shrugging"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤷‍♀️",
@@ -2943,7 +3049,8 @@
         "aliases": [
             "woman_shrugging"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍⚕️",
@@ -2952,7 +3059,8 @@
         "aliases": [
             "health_worker"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍⚕️",
@@ -2964,7 +3072,8 @@
         "tags": [
             "doctor",
             "nurse"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍⚕️",
@@ -2976,7 +3085,8 @@
         "tags": [
             "doctor",
             "nurse"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🎓",
@@ -2985,7 +3095,8 @@
         "aliases": [
             "student"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🎓",
@@ -2996,7 +3107,8 @@
         ],
         "tags": [
             "graduation"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🎓",
@@ -3007,7 +3119,8 @@
         ],
         "tags": [
             "graduation"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🏫",
@@ -3016,7 +3129,8 @@
         "aliases": [
             "teacher"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🏫",
@@ -3028,7 +3142,8 @@
         "tags": [
             "school",
             "professor"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🏫",
@@ -3040,7 +3155,8 @@
         "tags": [
             "school",
             "professor"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍⚖️",
@@ -3049,7 +3165,8 @@
         "aliases": [
             "judge"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍⚖️",
@@ -3060,7 +3177,8 @@
         ],
         "tags": [
             "justice"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍⚖️",
@@ -3071,7 +3189,8 @@
         ],
         "tags": [
             "justice"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🌾",
@@ -3080,7 +3199,8 @@
         "aliases": [
             "farmer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🌾",
@@ -3089,7 +3209,8 @@
         "aliases": [
             "man_farmer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🌾",
@@ -3098,7 +3219,8 @@
         "aliases": [
             "woman_farmer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🍳",
@@ -3107,7 +3229,8 @@
         "aliases": [
             "cook"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🍳",
@@ -3118,7 +3241,8 @@
         ],
         "tags": [
             "chef"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🍳",
@@ -3129,7 +3253,8 @@
         ],
         "tags": [
             "chef"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🔧",
@@ -3138,7 +3263,8 @@
         "aliases": [
             "mechanic"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🔧",
@@ -3147,7 +3273,8 @@
         "aliases": [
             "man_mechanic"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🔧",
@@ -3156,7 +3283,8 @@
         "aliases": [
             "woman_mechanic"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🏭",
@@ -3165,7 +3293,8 @@
         "aliases": [
             "factory_worker"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🏭",
@@ -3174,7 +3303,8 @@
         "aliases": [
             "man_factory_worker"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🏭",
@@ -3183,7 +3313,8 @@
         "aliases": [
             "woman_factory_worker"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍💼",
@@ -3192,7 +3323,8 @@
         "aliases": [
             "office_worker"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍💼",
@@ -3203,7 +3335,8 @@
         ],
         "tags": [
             "business"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍💼",
@@ -3214,7 +3347,8 @@
         ],
         "tags": [
             "business"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🔬",
@@ -3223,7 +3357,8 @@
         "aliases": [
             "scientist"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🔬",
@@ -3234,7 +3369,8 @@
         ],
         "tags": [
             "research"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🔬",
@@ -3245,7 +3381,8 @@
         ],
         "tags": [
             "research"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍💻",
@@ -3254,7 +3391,8 @@
         "aliases": [
             "technologist"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍💻",
@@ -3265,7 +3403,8 @@
         ],
         "tags": [
             "coder"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍💻",
@@ -3276,7 +3415,8 @@
         ],
         "tags": [
             "coder"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🎤",
@@ -3285,7 +3425,8 @@
         "aliases": [
             "singer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🎤",
@@ -3296,7 +3437,8 @@
         ],
         "tags": [
             "rockstar"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🎤",
@@ -3307,7 +3449,8 @@
         ],
         "tags": [
             "rockstar"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🎨",
@@ -3316,7 +3459,8 @@
         "aliases": [
             "artist"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🎨",
@@ -3327,7 +3471,8 @@
         ],
         "tags": [
             "painter"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🎨",
@@ -3338,7 +3483,8 @@
         ],
         "tags": [
             "painter"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍✈️",
@@ -3347,7 +3493,8 @@
         "aliases": [
             "pilot"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍✈️",
@@ -3356,7 +3503,8 @@
         "aliases": [
             "man_pilot"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍✈️",
@@ -3365,7 +3513,8 @@
         "aliases": [
             "woman_pilot"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🚀",
@@ -3374,7 +3523,8 @@
         "aliases": [
             "astronaut"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🚀",
@@ -3385,7 +3535,8 @@
         ],
         "tags": [
             "space"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🚀",
@@ -3396,7 +3547,8 @@
         ],
         "tags": [
             "space"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🚒",
@@ -3405,7 +3557,8 @@
         "aliases": [
             "firefighter"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🚒",
@@ -3414,7 +3567,8 @@
         "aliases": [
             "man_firefighter"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🚒",
@@ -3423,7 +3577,8 @@
         "aliases": [
             "woman_firefighter"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👮",
@@ -3435,7 +3590,8 @@
         ],
         "tags": [
             "law"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👮‍♂️",
@@ -3447,7 +3603,8 @@
         "tags": [
             "law",
             "cop"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👮‍♀️",
@@ -3459,7 +3616,8 @@
         "tags": [
             "law",
             "cop"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🕵️",
@@ -3470,7 +3628,8 @@
         ],
         "tags": [
             "sleuth"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🕵️‍♂️",
@@ -3481,7 +3640,8 @@
         ],
         "tags": [
             "sleuth"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🕵️‍♀️",
@@ -3492,7 +3652,8 @@
         ],
         "tags": [
             "sleuth"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💂",
@@ -3501,7 +3662,8 @@
         "aliases": [
             "guard"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💂‍♂️",
@@ -3510,7 +3672,8 @@
         "aliases": [
             "guardsman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💂‍♀️",
@@ -3519,7 +3682,8 @@
         "aliases": [
             "guardswoman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🥷",
@@ -3528,7 +3692,8 @@
         "aliases": [
             "ninja"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👷",
@@ -3539,7 +3704,8 @@
         ],
         "tags": [
             "helmet"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👷‍♂️",
@@ -3550,7 +3716,8 @@
         ],
         "tags": [
             "helmet"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👷‍♀️",
@@ -3561,7 +3728,8 @@
         ],
         "tags": [
             "helmet"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫅",
@@ -3570,7 +3738,8 @@
         "aliases": [
             "person_with_crown"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤴",
@@ -3582,7 +3751,8 @@
         "tags": [
             "crown",
             "royal"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👸",
@@ -3594,7 +3764,8 @@
         "tags": [
             "crown",
             "royal"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👳",
@@ -3603,7 +3774,8 @@
         "aliases": [
             "person_with_turban"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👳‍♂️",
@@ -3612,7 +3784,8 @@
         "aliases": [
             "man_with_turban"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👳‍♀️",
@@ -3621,7 +3794,8 @@
         "aliases": [
             "woman_with_turban"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👲",
@@ -3630,7 +3804,8 @@
         "aliases": [
             "man_with_gua_pi_mao"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧕",
@@ -3641,7 +3816,8 @@
         ],
         "tags": [
             "hijab"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤵",
@@ -3654,7 +3830,8 @@
             "groom",
             "marriage",
             "wedding"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤵‍♂️",
@@ -3663,7 +3840,8 @@
         "aliases": [
             "man_in_tuxedo"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤵‍♀️",
@@ -3672,7 +3850,8 @@
         "aliases": [
             "woman_in_tuxedo"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👰",
@@ -3684,7 +3863,8 @@
         "tags": [
             "marriage",
             "wedding"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👰‍♂️",
@@ -3693,7 +3873,8 @@
         "aliases": [
             "man_with_veil"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👰‍♀️",
@@ -3703,7 +3884,8 @@
             "woman_with_veil",
             "bride_with_veil"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤰",
@@ -3712,7 +3894,8 @@
         "aliases": [
             "pregnant_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫃",
@@ -3721,7 +3904,8 @@
         "aliases": [
             "pregnant_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🫄",
@@ -3730,7 +3914,8 @@
         "aliases": [
             "pregnant_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤱",
@@ -3741,7 +3926,8 @@
         ],
         "tags": [
             "nursing"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🍼",
@@ -3750,7 +3936,8 @@
         "aliases": [
             "woman_feeding_baby"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🍼",
@@ -3759,7 +3946,8 @@
         "aliases": [
             "man_feeding_baby"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🍼",
@@ -3768,7 +3956,8 @@
         "aliases": [
             "person_feeding_baby"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👼",
@@ -3777,7 +3966,8 @@
         "aliases": [
             "angel"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🎅",
@@ -3788,7 +3978,8 @@
         ],
         "tags": [
             "christmas"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤶",
@@ -3799,7 +3990,8 @@
         ],
         "tags": [
             "santa"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🎄",
@@ -3808,7 +4000,8 @@
         "aliases": [
             "mx_claus"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦸",
@@ -3817,7 +4010,8 @@
         "aliases": [
             "superhero"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦸‍♂️",
@@ -3826,7 +4020,8 @@
         "aliases": [
             "superhero_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦸‍♀️",
@@ -3835,7 +4030,8 @@
         "aliases": [
             "superhero_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦹",
@@ -3844,7 +4040,8 @@
         "aliases": [
             "supervillain"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦹‍♂️",
@@ -3853,7 +4050,8 @@
         "aliases": [
             "supervillain_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🦹‍♀️",
@@ -3862,7 +4060,8 @@
         "aliases": [
             "supervillain_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧙",
@@ -3873,7 +4072,8 @@
         ],
         "tags": [
             "wizard"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧙‍♂️",
@@ -3884,7 +4084,8 @@
         ],
         "tags": [
             "wizard"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧙‍♀️",
@@ -3895,7 +4096,8 @@
         ],
         "tags": [
             "wizard"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧚",
@@ -3904,7 +4106,8 @@
         "aliases": [
             "fairy"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧚‍♂️",
@@ -3913,7 +4116,8 @@
         "aliases": [
             "fairy_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧚‍♀️",
@@ -3922,7 +4126,8 @@
         "aliases": [
             "fairy_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧛",
@@ -3931,7 +4136,8 @@
         "aliases": [
             "vampire"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧛‍♂️",
@@ -3940,7 +4146,8 @@
         "aliases": [
             "vampire_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧛‍♀️",
@@ -3949,7 +4156,8 @@
         "aliases": [
             "vampire_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧜",
@@ -3958,7 +4166,8 @@
         "aliases": [
             "merperson"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧜‍♂️",
@@ -3967,7 +4176,8 @@
         "aliases": [
             "merman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧜‍♀️",
@@ -3976,7 +4186,8 @@
         "aliases": [
             "mermaid"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧝",
@@ -3985,7 +4196,8 @@
         "aliases": [
             "elf"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧝‍♂️",
@@ -3994,7 +4206,8 @@
         "aliases": [
             "elf_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧝‍♀️",
@@ -4003,7 +4216,8 @@
         "aliases": [
             "elf_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧞",
@@ -4077,7 +4291,8 @@
         ],
         "tags": [
             "spa"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💆‍♂️",
@@ -4088,7 +4303,8 @@
         ],
         "tags": [
             "spa"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💆‍♀️",
@@ -4099,7 +4315,8 @@
         ],
         "tags": [
             "spa"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💇",
@@ -4110,7 +4327,8 @@
         ],
         "tags": [
             "beauty"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💇‍♂️",
@@ -4119,7 +4337,8 @@
         "aliases": [
             "haircut_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💇‍♀️",
@@ -4128,7 +4347,8 @@
         "aliases": [
             "haircut_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚶",
@@ -4137,7 +4357,8 @@
         "aliases": [
             "walking"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚶‍♂️",
@@ -4146,7 +4367,8 @@
         "aliases": [
             "walking_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚶‍♀️",
@@ -4155,7 +4377,8 @@
         "aliases": [
             "walking_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧍",
@@ -4164,7 +4387,8 @@
         "aliases": [
             "standing_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧍‍♂️",
@@ -4173,7 +4397,8 @@
         "aliases": [
             "standing_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧍‍♀️",
@@ -4182,7 +4407,8 @@
         "aliases": [
             "standing_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧎",
@@ -4191,7 +4417,8 @@
         "aliases": [
             "kneeling_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧎‍♂️",
@@ -4200,7 +4427,8 @@
         "aliases": [
             "kneeling_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧎‍♀️",
@@ -4209,7 +4437,8 @@
         "aliases": [
             "kneeling_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦯",
@@ -4218,7 +4447,8 @@
         "aliases": [
             "person_with_probing_cane"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦯",
@@ -4227,7 +4457,8 @@
         "aliases": [
             "man_with_probing_cane"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦯",
@@ -4236,7 +4467,8 @@
         "aliases": [
             "woman_with_probing_cane"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦼",
@@ -4245,7 +4477,8 @@
         "aliases": [
             "person_in_motorized_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦼",
@@ -4254,7 +4487,8 @@
         "aliases": [
             "man_in_motorized_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦼",
@@ -4263,7 +4497,8 @@
         "aliases": [
             "woman_in_motorized_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🦽",
@@ -4272,7 +4507,8 @@
         "aliases": [
             "person_in_manual_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍🦽",
@@ -4281,7 +4517,8 @@
         "aliases": [
             "man_in_manual_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍🦽",
@@ -4290,7 +4527,8 @@
         "aliases": [
             "woman_in_manual_wheelchair"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏃",
@@ -4304,7 +4542,8 @@
             "exercise",
             "workout",
             "marathon"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏃‍♂️",
@@ -4317,7 +4556,8 @@
             "exercise",
             "workout",
             "marathon"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏃‍♀️",
@@ -4330,7 +4570,8 @@
             "exercise",
             "workout",
             "marathon"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💃",
@@ -4342,7 +4583,8 @@
         ],
         "tags": [
             "dress"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🕺",
@@ -4353,7 +4595,8 @@
         ],
         "tags": [
             "dancer"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🕴️",
@@ -4362,7 +4605,8 @@
         "aliases": [
             "business_suit_levitating"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👯",
@@ -4406,7 +4650,8 @@
         ],
         "tags": [
             "steamy"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧖‍♂️",
@@ -4417,7 +4662,8 @@
         ],
         "tags": [
             "steamy"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧖‍♀️",
@@ -4428,7 +4674,8 @@
         ],
         "tags": [
             "steamy"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧗",
@@ -4439,7 +4686,8 @@
         ],
         "tags": [
             "bouldering"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧗‍♂️",
@@ -4450,7 +4698,8 @@
         ],
         "tags": [
             "bouldering"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧗‍♀️",
@@ -4461,7 +4710,8 @@
         ],
         "tags": [
             "bouldering"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤺",
@@ -4479,7 +4729,8 @@
         "aliases": [
             "horse_racing"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "⛷️",
@@ -4497,7 +4748,8 @@
         "aliases": [
             "snowboarder"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏌️",
@@ -4506,7 +4758,8 @@
         "aliases": [
             "golfing"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏌️‍♂️",
@@ -4515,7 +4768,8 @@
         "aliases": [
             "golfing_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏌️‍♀️",
@@ -4524,7 +4778,8 @@
         "aliases": [
             "golfing_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏄",
@@ -4533,7 +4788,8 @@
         "aliases": [
             "surfer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏄‍♂️",
@@ -4542,7 +4798,8 @@
         "aliases": [
             "surfing_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏄‍♀️",
@@ -4551,7 +4808,8 @@
         "aliases": [
             "surfing_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚣",
@@ -4560,7 +4818,8 @@
         "aliases": [
             "rowboat"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚣‍♂️",
@@ -4569,7 +4828,8 @@
         "aliases": [
             "rowing_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚣‍♀️",
@@ -4578,7 +4838,8 @@
         "aliases": [
             "rowing_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏊",
@@ -4587,7 +4848,8 @@
         "aliases": [
             "swimmer"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏊‍♂️",
@@ -4596,7 +4858,8 @@
         "aliases": [
             "swimming_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏊‍♀️",
@@ -4605,7 +4868,8 @@
         "aliases": [
             "swimming_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "⛹️",
@@ -4616,7 +4880,8 @@
         ],
         "tags": [
             "basketball"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "⛹️‍♂️",
@@ -4626,7 +4891,8 @@
             "bouncing_ball_man",
             "basketball_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "⛹️‍♀️",
@@ -4636,7 +4902,8 @@
             "bouncing_ball_woman",
             "basketball_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏋️",
@@ -4648,7 +4915,8 @@
         "tags": [
             "gym",
             "workout"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏋️‍♂️",
@@ -4660,7 +4928,8 @@
         "tags": [
             "gym",
             "workout"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🏋️‍♀️",
@@ -4672,7 +4941,8 @@
         "tags": [
             "gym",
             "workout"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚴",
@@ -4681,7 +4951,8 @@
         "aliases": [
             "bicyclist"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚴‍♂️",
@@ -4690,7 +4961,8 @@
         "aliases": [
             "biking_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚴‍♀️",
@@ -4699,7 +4971,8 @@
         "aliases": [
             "biking_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚵",
@@ -4708,7 +4981,8 @@
         "aliases": [
             "mountain_bicyclist"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚵‍♂️",
@@ -4717,7 +4991,8 @@
         "aliases": [
             "mountain_biking_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🚵‍♀️",
@@ -4726,7 +5001,8 @@
         "aliases": [
             "mountain_biking_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤸",
@@ -4735,7 +5011,8 @@
         "aliases": [
             "cartwheeling"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤸‍♂️",
@@ -4744,7 +5021,8 @@
         "aliases": [
             "man_cartwheeling"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤸‍♀️",
@@ -4753,7 +5031,8 @@
         "aliases": [
             "woman_cartwheeling"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤼",
@@ -4789,7 +5068,8 @@
         "aliases": [
             "water_polo"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤽‍♂️",
@@ -4798,7 +5078,8 @@
         "aliases": [
             "man_playing_water_polo"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤽‍♀️",
@@ -4807,7 +5088,8 @@
         "aliases": [
             "woman_playing_water_polo"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤾",
@@ -4816,7 +5098,8 @@
         "aliases": [
             "handball_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤾‍♂️",
@@ -4825,7 +5108,8 @@
         "aliases": [
             "man_playing_handball"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤾‍♀️",
@@ -4834,7 +5118,8 @@
         "aliases": [
             "woman_playing_handball"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤹",
@@ -4843,7 +5128,8 @@
         "aliases": [
             "juggling_person"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤹‍♂️",
@@ -4852,7 +5138,8 @@
         "aliases": [
             "man_juggling"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🤹‍♀️",
@@ -4861,7 +5148,8 @@
         "aliases": [
             "woman_juggling"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧘",
@@ -4872,7 +5160,8 @@
         ],
         "tags": [
             "meditation"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧘‍♂️",
@@ -4883,7 +5172,8 @@
         ],
         "tags": [
             "meditation"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧘‍♀️",
@@ -4894,7 +5184,8 @@
         ],
         "tags": [
             "meditation"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🛀",
@@ -4905,7 +5196,8 @@
         ],
         "tags": [
             "shower"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🛌",
@@ -4914,7 +5206,8 @@
         "aliases": [
             "sleeping_bed"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "🧑‍🤝‍🧑",
@@ -4938,7 +5231,8 @@
         "tags": [
             "couple",
             "date"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👫",
@@ -4949,7 +5243,8 @@
         ],
         "tags": [
             "date"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👬",
@@ -4961,7 +5256,8 @@
         "tags": [
             "couple",
             "date"
-        ]
+        ],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💏",
@@ -4970,7 +5266,8 @@
         "aliases": [
             "couplekiss"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍❤️‍💋‍👨",
@@ -4979,7 +5276,8 @@
         "aliases": [
             "couplekiss_man_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍❤️‍💋‍👨",
@@ -4988,7 +5286,8 @@
         "aliases": [
             "couplekiss_man_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍❤️‍💋‍👩",
@@ -4997,7 +5296,8 @@
         "aliases": [
             "couplekiss_woman_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "💑",
@@ -5006,7 +5306,8 @@
         "aliases": [
             "couple_with_heart"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍❤️‍👨",
@@ -5015,7 +5316,8 @@
         "aliases": [
             "couple_with_heart_woman_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👨‍❤️‍👨",
@@ -5024,7 +5326,8 @@
         "aliases": [
             "couple_with_heart_man_man"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👩‍❤️‍👩",
@@ -5033,7 +5336,8 @@
         "aliases": [
             "couple_with_heart_woman_woman"
         ],
-        "tags": []
+        "tags": [],
+        "supports_fitzpatrick": true
     },
     {
         "emojiChar": "👪",
