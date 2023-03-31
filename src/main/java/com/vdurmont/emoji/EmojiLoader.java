@@ -1,9 +1,8 @@
 package com.vdurmont.emoji;
 
 
-import com.alibaba.fastjson2.JSON;
-import com.alibaba.fastjson2.JSONArray;
-import com.alibaba.fastjson2.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -37,9 +36,9 @@ public class EmojiLoader {
    * the JSONArray
    */
   public static List<Emoji> loadEmojis(InputStream stream) throws IOException {
-    JSONArray emojisJSON = JSON.parseArray(inputStreamToString(stream));
-    List<Emoji> emojis = new ArrayList<>(emojisJSON.size());
-    for (int i = 0; i < emojisJSON.size(); i++) {
+    JSONArray emojisJSON = new JSONArray(inputStreamToString(stream));
+    List<Emoji> emojis = new ArrayList<Emoji>(emojisJSON.length());
+    for (int i = 0; i < emojisJSON.length(); i++) {
       Emoji emoji = buildEmojiFromJSON(emojisJSON.getJSONObject(i));
       if (emoji != null) {
         emojis.add(emoji);
@@ -63,17 +62,17 @@ public class EmojiLoader {
   }
 
   protected static Emoji buildEmojiFromJSON(JSONObject json) {
-    if (!json.containsKey(FIELD_EMOJI)) {
+    if (!json.has(FIELD_EMOJI)) {
       return null;
     }
 
     byte[] bytes = json.getString(FIELD_EMOJI).getBytes(StandardCharsets.UTF_8);
     String description = null;
-    if (json.containsKey(FIELD_DESCRIPTION)) {
+    if (json.has(FIELD_DESCRIPTION)) {
       description = json.getString(FIELD_DESCRIPTION);
     }
     boolean supportsFitzpatrick = false;
-    if (json.containsKey(FIELD_SUPPORTS_FITZPATRICK)) {
+    if (json.has(FIELD_SUPPORTS_FITZPATRICK)) {
       supportsFitzpatrick = json.getBoolean(FIELD_SUPPORTS_FITZPATRICK);
     }
     List<String> aliases = jsonArrayToStringList(json.getJSONArray(FIELD_ALIASES));
@@ -82,8 +81,8 @@ public class EmojiLoader {
   }
 
   private static List<String> jsonArrayToStringList(JSONArray array) {
-    List<String> strings = new ArrayList<>(array.size());
-    for (int i = 0; i < array.size(); i++) {
+    List<String> strings = new ArrayList<String>(array.length());
+    for (int i = 0; i < array.length(); i++) {
       strings.add(array.getString(i));
     }
     return strings;

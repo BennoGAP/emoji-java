@@ -1,9 +1,8 @@
 package com.vdurmont.emoji;
 
 
-import com.alibaba.fastjson2.JSON;
-import com.alibaba.fastjson2.JSONArray;
-import com.alibaba.fastjson2.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
@@ -32,7 +31,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
             + "\"emoji\": \"😄\","
             + "\"description\": \"smiling face with open mouth and smiling eyes\","
             + "\"aliases\": [\"smile\"],"
@@ -60,7 +59,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_without_description_sets_a_null_description() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"emoji\": \"😄\","
       + "\"aliases\": [\"smile\"],"
       + "\"tags\": [\"happy\", \"joy\", \"pleased\"]"
@@ -77,7 +76,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_without_unicode_returns_null() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"aliases\": [\"smile\"],"
       + "\"tags\": [\"happy\", \"joy\", \"pleased\"]"
       + "}");
@@ -92,7 +91,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_computes_the_html_codes() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"emoji\": \"😄\","
       + "\"description\": \"smiling face with open mouth and smiling eyes\","
       + "\"aliases\": [\"smile\"],"
@@ -112,7 +111,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_with_support_for_fitzpatrick_true() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"emoji\": \"\uD83D\uDC66\","
       + "\"description\": \"boy\","
       + "\"supports_fitzpatrick\": true,"
@@ -131,7 +130,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_with_support_for_fitzpatrick_false() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"emoji\": \"\uD83D\uDE15\","
       + "\"description\": \"confused face\","
       + "\"supports_fitzpatrick\": false,"
@@ -150,7 +149,7 @@ public class EmojiLoaderTest {
   @Test
   public void buildEmojiFromJSON_without_support_for_fitzpatrick() {
     // GIVEN
-    JSONObject json = JSON.parseObject("{"
+    JSONObject json = new JSONObject("{"
       + "\"emoji\": \"\uD83D\uDE15\","
       + "\"description\": \"confused face\","
       + "\"aliases\": [\"confused\"],"
