@@ -86,7 +86,7 @@ public class EmojiParser {
    * @return the string with replaced character
    */
   public static String replaceAllEmojis(String str, final String replacementString) {
-    input = input.replaceAll("\ufe0f", "");
+    str = str.replaceAll("\ufe0f", "");
     EmojiParser.EmojiTransformer emojiTransformer = unicodeCandidate -> replacementString;
 
     return parseFromUnicode(str, emojiTransformer);
@@ -322,7 +322,7 @@ public class EmojiParser {
    * @return the string without any emoji
    */
   public static String removeAllEmojis(String str) {
-    input = input.replaceAll("\ufe0f", "");
+    str = str.replaceAll("\ufe0f", "");
     EmojiTransformer emojiTransformer = unicodeCandidate -> "";
 
     return parseFromUnicode(str, emojiTransformer);
@@ -341,7 +341,7 @@ public class EmojiParser {
     String str,
     final Collection<Emoji> emojisToRemove
   ) {
-    input = input.replaceAll("\ufe0f", "");
+    str = str.replaceAll("\ufe0f", "");
     EmojiTransformer emojiTransformer = unicodeCandidate -> {
       if (!emojisToRemove.contains(unicodeCandidate.getEmoji())) {
         return unicodeCandidate.getEmoji().getUnicode() +
@@ -365,7 +365,7 @@ public class EmojiParser {
     String str,
     final Collection<Emoji> emojisToKeep
   ) {
-    input = input.replaceAll("\ufe0f", "");
+    str = str.replaceAll("\ufe0f", "");
     EmojiTransformer emojiTransformer = unicodeCandidate -> {
       if (emojisToKeep.contains(unicodeCandidate.getEmoji())) {
         return unicodeCandidate.getEmoji().getUnicode() +

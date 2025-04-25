@@ -1,6 +1,7 @@
 package com.vdurmont.emoji;
 
 import java.nio.charset.StandardCharsets;
+import java.io.UnsupportedEncodingException;
 import java.util.Collections;
 import java.util.List;
 
