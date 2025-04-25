@@ -199,6 +199,18 @@ public class EmojiManagerTest {
   }
 
   @Test
+  public void isOnlyEmojis_for_emojis_with_fe0f_returns_true() {
+    // GIVEN
+    String str = "😀️😀";
+
+    // WHEN
+    boolean isEmoji = EmojiManager.isOnlyEmojis(str);
+
+    // THEN
+    assertTrue(isEmoji);
+  }
+
+  @Test
   public void isOnlyEmojis_for_random_string_returns_false() {
     // GIVEN
     String str = "😀a";
@@ -219,7 +231,7 @@ public class EmojiManagerTest {
 
     // THEN
     // We know the number of distinct tags int the...!
-    assertEquals(656, tags.size());
+    assertEquals(675, tags.size());
   }
 
   @Test

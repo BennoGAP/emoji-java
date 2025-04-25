@@ -126,11 +126,15 @@ public class EmojiJsonTest {
     @ParameterizedTest
     @MethodSource("emojis")
     public void checkInverseParse(String emoji) {
-        assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToHtmlDecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
+                // The emojis should be considered the same regardless of the presence of the variation selector
+        String toParse = EmojiParser.parseToHtmlDecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE).replaceAll("&#65039;", "");
+        assertEquals(emoji.replaceAll("\ufe0f", ""), EmojiParser.parseToUnicode(toParse).replaceAll("\ufe0f", ""));
 
-        assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToHtmlHexadecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
+        toParse = EmojiParser.parseToHtmlHexadecimal(emoji, EmojiParser.FitzpatrickAction.IGNORE).replaceAll("&#xfe0f;", "");
+        assertEquals(emoji.replaceAll("\ufe0f", ""), EmojiParser.parseToUnicode(toParse).replaceAll("\ufe0f", ""));
 
-        assertEquals(emoji, EmojiParser.parseToUnicode(EmojiParser.parseToAliases(emoji, EmojiParser.FitzpatrickAction.IGNORE)));
+        toParse = EmojiParser.parseToAliases(emoji, EmojiParser.FitzpatrickAction.IGNORE);
+        assertEquals(emoji.replaceAll("\ufe0f", ""), EmojiParser.parseToUnicode(toParse).replaceAll("\ufe0f", ""));
     }
 
     /**

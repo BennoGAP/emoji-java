@@ -17,6 +17,7 @@ public class Emoji {
   private final List<String> aliases;
   private final List<String> tags;
   private final String unicode;
+  private final String unicodeWithoutVariationSelectors;
   private final String htmlDec;
   private final String htmlHex;
 
@@ -42,21 +43,26 @@ public class Emoji {
     this.tags = Collections.unmodifiableList(tags);
 
     int count = 0;
-    this.unicode = new String(bytes, StandardCharsets.UTF_8);
-    int stringLength = getUnicode().length();
-    String[] pointCodes = new String[stringLength];
-    String[] pointCodesHex = new String[stringLength];
+    try {
+      this.unicode = new String(bytes, "UTF-8");
+      this.unicodeWithoutVariationSelectors = this.unicode.replaceAll("\ufe0f", "");
+      int stringLength = getUnicode().length();
+      String[] pointCodes = new String[stringLength];
+      String[] pointCodesHex = new String[stringLength];
 
-    for (int offset = 0; offset < stringLength; ) {
-      final int codePoint = getUnicode().codePointAt(offset);
+      for (int offset = 0; offset < stringLength; ) {
+        final int codePoint = getUnicode().codePointAt(offset);
 
-      pointCodes[count] = String.format("&#%d;", codePoint);
-      pointCodesHex[count++] = String.format("&#x%x;", codePoint);
+        pointCodes[count] = String.format("&#%d;", codePoint);
+        pointCodesHex[count++] = String.format("&#x%x;", codePoint);
 
-      offset += Character.charCount(codePoint);
+        offset += Character.charCount(codePoint);
+      }
+      this.htmlDec = stringJoin(pointCodes, count);
+      this.htmlHex = stringJoin(pointCodesHex, count);
+    } catch (UnsupportedEncodingException e) {
+      throw new RuntimeException(e);
     }
-    this.htmlDec = stringJoin(pointCodes, count);
-    this.htmlHex = stringJoin(pointCodesHex, count);
   }
 
   /**
@@ -139,6 +145,15 @@ public class Emoji {
       return this.getUnicode();
     }
     return this.getUnicode() + fitzpatrick.unicode;
+  }
+
+  /**
+   * Returns the normalized unicode representation of the emoji
+   *
+   * @return the normalized unicode representation
+   */
+  public String getUnicodeWithoutVariationSelectors() {
+    return this.unicodeWithoutVariationSelectors;
   }
 
   /**

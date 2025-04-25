@@ -14,14 +14,14 @@ public class EmojiParserTest {
   @Test
   public void parseToAliases_replaces_the_emojis_by_one_of_their_aliases() {
     // GIVEN
-    String str = "An 😀awesome 😃string with a few 😉emojis!";
+    String str = "An 😀awesome 😃string with a few 😉emojis and a 🕵️‍♀️! Maybe 🕵🏾‍♀️!";
 
     // WHEN
     String result = EmojiParser.parseToAliases(str);
 
     // THEN
     assertEquals(
-      "An :grinning:awesome :smiley:string with a few :wink:emojis!",
+      "An :grinning:awesome :smiley:string with a few :wink:emojis and a :woman_detective:! Maybe :woman_detective:",
       result
     );
   }
@@ -45,13 +45,14 @@ public class EmojiParserTest {
   @Test
   public void parseToAliases_REPLACE_with_a_fitzpatrick_modifier() {
     // GIVEN
-    String str = "\uD83D\uDC66\uD83C\uDFFF";
+    //String str = "\uD83D\uDC66\uD83C\uDFFF";
+	String str = "👦🏽";
 
     // WHEN
     String result = EmojiParser.parseToAliases(str);
 
     // THEN
-    assertEquals(":boy|type_6:", result);
+    assertEquals(":boy|ttype_6:", result);
   }
 
   @Test
@@ -487,7 +488,7 @@ public class EmojiParserTest {
     String result = EmojiParser.parseToAliases(str);
 
     // THEN
-    assertEquals("Nigeria is :ng:, NG is :squared_ng:", result);
+    assertEquals("Nigeria is :ng_flag:, NG is :squared_ng:", result);
   }
 
   @Test

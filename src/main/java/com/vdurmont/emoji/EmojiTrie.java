@@ -12,7 +12,7 @@ public class EmojiTrie {
     int maxDepth = 0;
     for (Emoji emoji : emojis) {
       Node tree = root;
-      char[] chars = emoji.getUnicode().toCharArray();
+      char[] chars = emoji.getUnicodeWithoutVariationSelectors().toCharArray();
       maxDepth = Math.max(maxDepth, chars.length);
       for (char c: chars) {
         tree.addChild(c);
